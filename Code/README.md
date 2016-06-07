@@ -18,6 +18,4 @@ $ google-chrome http://localhost:3000
 
 ## Contributors
 
-Juan José García
-
-www.jotaoncode.com
+Praveen Sastry
