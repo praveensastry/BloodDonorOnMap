@@ -1,0 +1,40 @@
+{
+  "name": "BloodDonorOnMap",
+  "version": "0.0.1",
+  "description": "Web interface to find Blood donors nearby.",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "pretty-hrtime": "~1.0.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "babelify": "^7.2.0",
+    "body-parser": "^1.14.2",
+    "brfs": "^1.4.3",
+    "browserify": "^9.0.3",
+    "classnames": "^2.2.3",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-react": "^3.1.0",
+    "handlebars": "^4.0.5",
+    "jquery": "^2.2.0",
+    "lodash": "^4.2.1",
+    "marked": "^0.3.5",
+    "mongoose": "^4.4.1",
+    "node-minify": "^1.3.7",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "socket.io": "^1.4.5",
+    "superagent": "^2.0.0",
+    "underscore": "^1.8.3",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec ../Tests/*.js"
+  },
+  "license": "MIT"
+}

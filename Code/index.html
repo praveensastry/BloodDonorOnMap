@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="photo-sticker">
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Donators and Patients</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <style>
+      html, body, #content, #map-content {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+      }
+      #map {
+        height: 100%;
+        width: 100%;
+      }
+      #donors, #patients {
+        position: absolute;
+      }
+      #donors {
+        top: 20px;
+        right: 20px;
+      }
+      #patients {
+        top: 20px;
+        right: 120px;
+      }
+      .help-block {
+        display: none;
+      }
+      .help-block.not-valid-field {
+        display: block;
+        color: red;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div id="content"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="./node_modules/underscore/underscore-min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="./node_modules/classnames/index.js"></script>
+    <script src="//js.arcgis.com/3.15compact/"></script>
+    <script src="./dist/js/run.js"></script>
+  </body>
+</html>
